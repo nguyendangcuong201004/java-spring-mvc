@@ -14,6 +14,6 @@ public class UserController {
 
     @RequestMapping("/")
     public String getHomePage() {
-        return this.userService.hanleHello();
+        return "hello";
     }
 }
